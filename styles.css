@@ -1,0 +1,48 @@
+.heading {
+    background-color: #fff000;
+    padding-left: 40rem;
+    margin: 0rem;
+}
+
+.img-minion {
+    padding-bottom: 2rem;
+    max-width: 600px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.text-input {
+    border: 2px solid blue;
+    height: 10vh;
+    width: 50%;
+    margin: 0rem;
+    display: block;
+
+}
+
+.click-button {
+    font-size: large;
+    background-color: #fff000;
+    display: block;
+    margin: auto;
+    align-content: center;
+}
+
+.output-heading {
+    align-content: center;
+    font-size: xx-small;
+    background-color: #fff007;
+    margin: auto;
+    align-content: center;
+    padding-left: 40rem;
+}
+
+
+.output-box {
+    border: 2px solid blue;
+    height: 10vh;
+    width: 50%;
+    margin: 0rem;
+    display: block;
+}

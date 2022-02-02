@@ -5,51 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minion Speaks</title>
-    <style>
-        textarea {
-            width: 80%;
-            height: 10vh;
-            display: block;
-            margin: 0rem;
-            padding: 1rem;
-            padding-left: 1rem;
-        }
+    <title>Minion's Language</title>
 
-    #output {
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 0rem;
-            padding: 1rem;
-            padding-left: 1rem;
-            display: block;
-        }
-    </style>
+    <link href="styles.css" rel="stylesheet">
 
 
 </head>
 
 <body>
-    <h1>How will a minion say it? Lets find out.</h1>
-
-    <!-- One way of checking if the script is working or not
-    <script>console.log("HELLO SCRIPT IS WORKING")</script>
-    -->
-    <img src="https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-        height="300" width="500">
-    <div style="font-size: larger;">Input will come here ⬇️</div>
-    <textarea id="txt-input" placeholder="Type here in human language">
-    </textarea>
-
-    <button id="btn-translate">Translate</button>
 
 
-    <div style="font-size: larger;">Output will come here ⬇️</div>
-    <div id="output"></div>
+    <div class="heading">
+        <h2>Speak like a Minion</h2>
+        <ul>
+            <p>
+                <li><i>Minions are a very famous cartoon character</i></li>
+                <li><i>Do you know that the gibberish they speak is an actual language?</i></li>
+                <li><i>With this web app, you can translate any English sentence to Minion Language <3</i> </li> </p>
+                            </ul> </div> <!-- One way of checking if the script is working or not <script>
+                            console.log("HELLO SCRIPT IS WORKING")</script>
+                            -->
 
 
-    <script src="app.js" type="text/javascript"></script>
+                            <img class="img-minion"
+                                src="https://images.unsplash.com/photo-1515041219749-89347f83291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                                height="300" width="500">
+
+
+
+                            <textarea class="text-input" id="txt-input"
+                                placeholder="Type here in human language that you want to convert to banana language">
+                            </textarea>
+
+
+                            <button class="click-button" id="btn-translate"><small>Click to Translate</small></button>
+
+
+                            <div class="output-heading" style="font-size: larger;">
+                                <bold>Translation will come here ⬇️</bold>
+                            </div>
+                            <div class="output-box" id="output"></div>
+
+
+                            <!--To enable Javascript in this code-->
+                            <script src="app.js" type="text/javascript"></script>
 
 
 </body>
