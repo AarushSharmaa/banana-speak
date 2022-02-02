@@ -1,29 +1,56 @@
-.heading {
-    background-color: #fff000;
-    padding-left: 40rem;
-    margin: 0rem;
+body{
+    background-color: yellow;
 }
+
+
+
+
+.heading {
+    background-color: yellow;
+    padding-left: 40rem;
+    margin: auto;
+}
+
+
+.heading-title {
+    font-weight: 900;
+    font-style:inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large;
+
+}
+.information-bullet
+{
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size : medium;
+}
+
+
 
 .img-minion {
     padding-bottom: 2rem;
     max-width: 600px;
     height: 300px;
     display: block;
-    margin: auto;
+    margin:auto;
 }
 
 .text-input {
     border: 2px solid blue;
     height: 10vh;
     width: 50%;
-    margin: 0rem;
+    margin: 0px auto;
     display: block;
 
 }
 
 .click-button {
     font-size: large;
-    background-color: #fff000;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color : transparent;
     display: block;
     margin: auto;
     align-content: center;
@@ -32,17 +59,19 @@
 .output-heading {
     align-content: center;
     font-size: xx-small;
-    background-color: #fff007;
     margin: auto;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     align-content: center;
     padding-left: 40rem;
 }
 
 
 .output-box {
+    background-color: white;
     border: 2px solid blue;
     height: 10vh;
     width: 50%;
-    margin: 0rem;
+    margin: 0px auto;
     display: block;
 }
