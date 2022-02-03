@@ -1,4 +1,4 @@
-body{
+body {
     background-color: yellow;
 }
 
@@ -6,7 +6,7 @@ body{
 
 
 .heading {
-    background-color: yellow;
+    background-color: #FFFBEB;
     padding-left: 40rem;
     margin: auto;
 }
@@ -14,31 +14,32 @@ body{
 
 .heading-title {
     font-weight: 900;
-    font-style:inherit;
+    font-style: inherit;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:xx-large;
+    font-size: xx-large;
 
 }
-.information-bullet
-{
+
+.information-bullet {
     background-color: transparent;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    font-size : medium;
+    font-size: medium;
 }
 
 
 
 .img-minion {
     padding-bottom: 2rem;
-    max-width: 600px;
-    height: 300px;
+    max-width: 500px;
+    height: 400px;
     display: block;
-    margin:auto;
+    margin: auto;
 }
 
 .text-input {
     border: 2px solid blue;
+    background-color: #FFFBEB;
     height: 10vh;
     width: 50%;
     margin: 0px auto;
@@ -50,7 +51,7 @@ body{
     font-size: large;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color : transparent;
+    background-color: transparent;
     display: block;
     margin: auto;
     align-content: center;
@@ -68,7 +69,7 @@ body{
 
 
 .output-box {
-    background-color: white;
+    background-color: #FFFBEB;
     border: 2px solid blue;
     height: 10vh;
     width: 50%;
