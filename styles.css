@@ -4,30 +4,22 @@ body {
 
 .heading {
     background-color: black;
-    padding-left: 40rem;
+    text-align: center;
     margin: auto;
-    align-content: center;
-}
-
-
-.heading-title {
+    padding: 1rem 0.5rem;
     color: yellow;
-    display: block;
-    background-color: black;
-    font-size: 3rem;
-    cursor: pointer;
-
+    
 }
 
 .img-minion {
-    padding-bottom: 2rem;
+    padding: 2rem;
     max-width: 500px;
     height: 400px;
     display: block;
     margin: auto;
 }
 
-.text-input {
+.input-box {
     border: 2px solid blue;
     background-color: #FFFBEB;
     height: 10vh;
@@ -49,13 +41,14 @@ body {
 }
 
 .output-heading {
-    align-content: center;
+    text-align: center;
+    color: black;
+    display: block;
     font-size: xx-small;
-    margin: auto;
+    margin: 1rem auto;
     font-weight: 900;
+    border: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    align-content: center;
-    padding-left: 40rem;
 }
 
 
