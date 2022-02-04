@@ -14,7 +14,7 @@ body {
 .img-minion {
     padding: 2rem;
     max-width: 500px;
-    height: 400px;
+    height: 200px;
     display: block;
     margin: auto;
 }
@@ -59,4 +59,14 @@ body {
     width: 50%;
     margin: 2px auto;
     display: block;
+}
+
+
+.about
+{
+    margin-top: 20px;
+    border: 2px solid black;
+    font-weight: bolder;
+    color: yellow;
+    background-color: black;
 }
