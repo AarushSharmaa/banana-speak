@@ -69,4 +69,21 @@ body {
     font-weight: bolder;
     color: yellow;
     background-color: black;
+    text-align: center;
+}
+
+.footer-header
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: unset;
+}
+
+.link
+{
+    display: inline;
+    color: black;
+    font-weight: bolder;
 }
