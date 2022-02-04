@@ -54,4 +54,4 @@ function clickHandler() {
 }
 
 //when there is a click, run the function named as clickHandler
-btnTranslate.addEventListener("click", clickHandler())
+btnTranslate.addEventListener("click", clickHandler)
