@@ -8,7 +8,7 @@ body {
     margin: auto;
     padding: 1rem 0.5rem;
     color: yellow;
-    
+
 }
 
 .img-minion {
@@ -62,8 +62,7 @@ body {
 }
 
 
-.about
-{
+.about {
     margin-top: 20px;
     border: 2px solid black;
     font-weight: bolder;
@@ -72,8 +71,7 @@ body {
     text-align: center;
 }
 
-.footer-header
-{
+.footer-header {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -81,8 +79,7 @@ body {
     font-style: unset;
 }
 
-.link
-{
+.link {
     color: black;
     font-weight: bolder;
 }
