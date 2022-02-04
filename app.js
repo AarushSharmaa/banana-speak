@@ -1,7 +1,7 @@
-//get me the button (translate button)
+//get me the button (translate button) which wil translate
 var btnTranslate = document.querySelector("#btn-translate");
 
-//get me the input
+//get me the input 
 var txtInput = document.querySelector("#txt-input");
 
 //get me the output
@@ -11,11 +11,11 @@ var outputDiv = document.querySelector("#output");
 //var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
 
-//we need a server URL
+//we need a server URL that actually translates the lines by user
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 
-//we define a function : whenever we want to convert a text
+//we define a function : whenever we want to convert a text(input)
 //we will take serverURL, add "?" to it, add a key-value "text=" + input
 function getTranslationURL(input) {
     return serverURL + "?" + "text=" + input
@@ -48,8 +48,10 @@ function clickHandler() {
             var translatedText = json.contents.translated;
             outputDiv.innerText = translatedText; //output
         })
+
+        //if above deos not work, catch an error
         .catch(errorHandler)
-};
+}
 
 //when there is a click, run the function named as clickHandler
-btnTranslate.addEventListener("click", clickHandler)
+btnTranslate.addEventListener("click", clickHandler())
