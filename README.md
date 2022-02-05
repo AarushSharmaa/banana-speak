@@ -15,3 +15,7 @@ This is a Minion ⬇️
 - Upon clciking the translate button, the input given by user will be displayed in **Minion language**.
 #
 #### Tech Involved : HTML, CSS and Javascript
+
+## Scope for Improvement
+
+- Have not made it mobile friendly, looking forward to do it over a period of time.
