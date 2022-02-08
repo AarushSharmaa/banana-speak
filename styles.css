@@ -3,8 +3,8 @@ body {
 }
 
 .heading {
-    background-color: black;
     text-align: center;
+    background-color: black;
     margin: auto;
     padding: 1rem 0.5rem;
     color: yellow;
@@ -30,9 +30,10 @@ body {
 }
 
 .click-button {
+    border-radius: 50px;
     color: yellow;
     display: block;
-    background-color: black;
+    background-color: grey;
     padding: 0.5rem 1.5rem;
     border: none;
     font-size: 1.3rem;
