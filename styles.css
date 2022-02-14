@@ -4,10 +4,10 @@ body {
 
 .heading {
     text-align: center;
-    background-color: black;
     margin: auto;
     padding: 1rem 0.5rem;
-    color: yellow;
+    color: black;
+    font-weight:bolder;
 
 }
 
@@ -65,10 +65,8 @@ body {
 
 .about {
     margin-top: 20px;
-    border: 2px solid black;
     font-weight: bolder;
-    color: yellow;
-    background-color: black;
+    color: black;
     text-align: center;
 }
 
