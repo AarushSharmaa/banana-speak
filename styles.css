@@ -7,16 +7,17 @@ body {
     margin: auto;
     padding: 1rem 0.5rem;
     color: black;
-    font-weight:bolder;
+    font-weight: bolder;
 
 }
 
 .img-minion {
     padding: 2rem;
-    max-width: 500px;
+    max-width: 400px;
     height: 200px;
     display: block;
     margin: auto;
+    align:center;
 }
 
 .input-box {
