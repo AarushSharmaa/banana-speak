@@ -12,7 +12,7 @@ This is a Minion ⬇️
 #### What have we build?
 
 - In this web app, a user can type in English and then, they will find a **translate** button.
-- Upon clciking the translate button, the input given by user will be displayed in **Minion language**.
+- Upon clicking the translate button, the input given by user will be displayed in **Minion language**.
 #
 #### Tech Involved : HTML, CSS and Javascript
 
