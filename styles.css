@@ -1,40 +1,42 @@
 body {
-    background-color: rgba(255, 225, 0, 0.707);
+    background-color: lightyellow;
+    background-image: url(https://images.unsplash.com/photo-1555786766-e1e69380c4bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1300&q=150);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .heading {
     text-align: center;
     margin: auto;
     padding: 1rem 0.5rem;
-    color: black;
-    font-weight: bolder;
-
+    color: yellow;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .img-minion {
-    padding: 2rem;
-    max-width: 400px;
-    height: 200px;
+    padding: 0.5rem;
+    width: 200px;
+    max-width: 800px;
+    height: 150px;
     display: block;
     margin: auto;
-    align:center;
+    margin: auto;
 }
 
 .input-box {
-    border: 2px solid blue;
+    border: 0.5px solid #7c7c7c;
     background-color: #FFFBEB;
     height: 10vh;
     width: 50%;
     margin: 0px auto;
     display: block;
-
 }
 
 .click-button {
     border-radius: 50px;
-    color: yellow;
+    color: grey;
     display: block;
-    background-color: grey;
+    background-color: white;
     padding: 0.5rem 1.5rem;
     border: none;
     font-size: 1.3rem;
@@ -44,42 +46,58 @@ body {
 
 .output-heading {
     text-align: center;
-    color: black;
+    color: lightyellow;
     display: block;
     font-size: xx-small;
     margin: 1rem auto;
-    font-weight: 900;
+    font-weight: lighter;
     border: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
 .output-box {
     background-color: #FFFBEB;
-    border: 2px solid blue;
+    border: 0.5px solid #7c7c7c;
     height: 10vh;
     width: 50%;
     margin: 2px auto;
     display: block;
 }
 
-
 .about {
     margin-top: 20px;
-    font-weight: bolder;
-    color: black;
+    font-weight: lighter;
+    color: lightyellow;
+    text-align: center;
+    font-size: small;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: brown;
+}
+
+footer p {
+    font-size: large;
     text-align: center;
 }
 
-.footer-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-weight: bolder;
-    font-style: unset;
+.footer-list {
+    margin: 1rem;
 }
 
-.link {
-    color: black;
-    font-weight: bolder;
+a,
+li {
+    display: inline;
+    padding: 0.5rem;
+    color: #7c3aed;
+    text-decoration: none;
+    font-weight: bold;
 }
